@@ -22,4 +22,6 @@ flutter:
     - assets/img
     - assets/img/carrito
     
+    - assets/img/
+    - assets/img/inicio_sesion/
 
