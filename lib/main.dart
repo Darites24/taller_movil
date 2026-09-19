@@ -1,4 +1,5 @@
 import 'package:material_ui/material_ui.dart';
+import 'package:taller_movil/screens/detalle_productor.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,7 +11,9 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Scaffold(body: Center(child: Text('Hello World!'))),
+      home: Scaffold(
+        body: DetalleProductor()
+        ),
     );
   }
 }
